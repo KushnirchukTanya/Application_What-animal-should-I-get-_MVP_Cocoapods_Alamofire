@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  What animal should i get?
+
+  Created by Tanya on 01.04.2021.
+  
+*/
+
+"MVP module.Models.Answers.var definitionAnimal.case .cat" = "You are restrained and love freedom. You value not the quantity, but the quality of your friends.";
+
+"MVP module.Models.Answers.var definitionAnimal.case .dog" = "You are friendly and open. You like to surround yourself with people and you are always ready to help.";
+
+"MVP module.Models.Answers.var definitionAnimal.case .mouse" = "You are resourceful and elusive. You are always on the move and love to work hard.";
+
+"MVP module.Models.Answers.var definitionAnimal.case .fish" = "You are calm and reasonable. You value consistency and comfort.";
+
+"MVP module.Models.Presenters.QuestionsPresenter.class QuestionsPresenter.func updateUI.view.title"= "Question № \(view.questionIndex + 1) in \(view.questions.count)";
+
+"MVP module.Models.Presenters.ResultsPresenter.class ResultsPresenter.func updateUI.view.animalTypeLabel.text" = "Your animal - !";

@@ -30,7 +30,8 @@ class ResultsPresenter {
     
     func updateUI(_ view: ResultsView, with animal: AnimalType) {
         
-        view.animalTypeLabel.text = "Your animal - \(animal.rawValue)!"
+        view.animalTypeLabel.text = "Your animal - \(animal.rawValue)"
+            //view.animalTypeLabel.text = NSLocalizedString("MVP module.Models.Presenters.ResultsPresenter.class ResultsPresenter.func updateUI.view.animalTypeLabel.text", comment: "")
         view.discriptionLabel.text = animal.definitionAnimal
     }
 }

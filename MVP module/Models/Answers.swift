@@ -4,6 +4,7 @@
 //
 //  Created by Tanya on 25.03.2021.
 //
+import Foundation
 
 struct Answer: Decodable {
     let text: String
@@ -53,13 +54,13 @@ enum AnimalType: Character, Decodable {
         
         switch self {
         case .cat:
-            return "You are restrained and love freedom. You value not the quantity, but the quality of your friends"
+            return NSLocalizedString("MVP module.Models.Answers.var definitionAnimal.case .cat", comment: "")
         case .dog:
-            return "You are friendly and open. You like to surround yourself with people and you are always ready to help"
+            return NSLocalizedString("MVP module.Models.Answers.var definitionAnimal.case .dog", comment: "")
         case .mouse:
-            return "You are resourceful and elusive. You are always on the move and love to work hard"
+            return NSLocalizedString("MVP module.Models.Answers.var definitionAnimal.case .mouse", comment: "")
         case .fish:
-            return "You are calm and reasonable. You value consistency and comfort"
+            return NSLocalizedString("MVP module.Models.Answers.var definitionAnimal.case .fish", comment: "")
         }
     }
 }

@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  What animal should i get?
+
+  Created by Tanya on 01.04.2021.
+  
+*/
+
+"MVP module.Models.Answers.var definitionAnimal.case .cat" = "Вы сдержаны и любите свободу. Вы цените не количество, а качество своих друзей.";
+
+"MVP module.Models.Answers.var definitionAnimal.case .dog" = "Вы дружелюбны и открыты. Вы любите окружать себя людьми и всегда готовы помочь.";
+
+"MVP module.Models.Answers.var definitionAnimal.case .mouse" = "Вы находчивы и неуловимы. Вы всегда в движении и любите много работать.";
+
+"MVP module.Models.Answers.var definitionAnimal.case .fish" = "Вы спокойны и рассудительны. Вы цените последовательность и комфорт.";
+
+"MVP module.Models.Presenters.QuestionsPresenter.class QuestionsPresenter.func updateUI.view.title"= "Вопрос № \(view.questionIndex + 1) из \(view.questions.count)";
+
+"MVP module.Models.Presenters.ResultsPresenter.class ResultsPresenter.func updateUI.view.animalTypeLabel.text" = "Ваше животное - ";

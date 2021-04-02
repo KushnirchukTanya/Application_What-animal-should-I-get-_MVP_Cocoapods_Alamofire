@@ -1,6 +1,68 @@
+/* Class = "UILabel"; text = "Label"; ObjectID = "1sn-Ec-h0H"; */
+"1sn-Ec-h0H.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "2R4-od-phc"; */
+"2R4-od-phc.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "8Vg-wf-qZz"; */
+"8Vg-wf-qZz.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Start poll"; ObjectID = "Ar6-YM-IHE"; */
+"Ar6-YM-IHE.normalTitle" = "Начать опрос";
+
+/* Class = "UILabel"; text = "🐠"; ObjectID = "DGB-3C-0VJ"; */
+"DGB-3C-0VJ.text" = "🐠";
+
+/* Class = "UILabel"; text = "🐩"; ObjectID = "EW2-MZ-bTj"; */
+"EW2-MZ-bTj.text" = "🐩";
+
+/* Class = "UIButton"; normalTitle = "Reaply"; ObjectID = "Fh7-b8-wuw"; */
+"Fh7-b8-wuw.normalTitle" = "Ответить";
+
 /* Class = "UILabel"; text = "Your animal - 🐈"; ObjectID = "HZu-Ap-qoS"; */
 "HZu-Ap-qoS.text" = "Ваше животное - 🐈";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ITu-r0-LiA"; */
+"ITu-r0-LiA.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "What animal should i get?"; ObjectID = "Jig-5u-1bo"; */
+"Jig-5u-1bo.text" = "Какое животное мне завести?";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "K90-iO-EIw"; */
+"K90-iO-EIw.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "UTW-q6-DuB"; */
+"UTW-q6-DuB.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Uqs-xT-k5C"; */
+"Uqs-xT-k5C.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "aLz-5S-mSQ"; */
+"aLz-5S-mSQ.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Reaply"; ObjectID = "aV6-if-ThB"; */
+"aV6-if-ThB.normalTitle" = "Ответить";
+
+/* Class = "UILabel"; text = "🐈"; ObjectID = "cq7-c5-2BF"; */
+"cq7-c5-2BF.text" = "🐈";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "drw-XJ-Wpp"; */
+"drw-XJ-Wpp.normalTitle" = "Button";
 
 /* Class = "UINavigationItem"; title = "Question №"; ObjectID = "hMN-LI-dJW"; */
 "hMN-LI-dJW.title" = "Вопрос №";
 
+/* Class = "UILabel"; text = "Lebel"; ObjectID = "lSr-jg-dvn"; */
+"lSr-jg-dvn.text" = "Lebel";
+
+/* Class = "UILabel"; text = "You are restrained and love freedom. You value not the quantity, but the quality of your friends"; ObjectID = "nTl-NY-TDd"; */
+"nTl-NY-TDd.text" = "Вы сдержаны и любите свободу. Вы цените не количество, а качество своих друзей";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "o7V-Mb-oaS"; */
+"o7V-Mb-oaS.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Results"; ObjectID = "pKN-s4-Tcj"; */
+"pKN-s4-Tcj.title" = "Результаты";
+
+/* Class = "UILabel"; text = "🐀"; ObjectID = "x0E-gi-HED"; */
+"x0E-gi-HED.text" = "🐀";
