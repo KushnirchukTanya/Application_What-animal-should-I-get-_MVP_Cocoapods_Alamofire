@@ -28,7 +28,17 @@ class QuestionsPresenter {
         
         view.questionProgressView.setProgress(totalProgress, animated: true)
         
-        view.title = "Question № \(view.questionIndex + 1) in \(view.questions.count)"
+        if view.questionIndex == 0 {
+            view.title = NSLocalizedString("MVP module.Models.Presenters.QuestionsPresenter.class QuestionsPresenter.func updateUI.view.questionIndex == 0", comment: "UINavigationItem")
+        }
+        
+        if view.questionIndex == 1 {
+            view.title = NSLocalizedString("MVP module.Models.Presenters.QuestionsPresenter.class QuestionsPresenter.func updateUI.view.questionIndex == 1", comment: "UINavigationItem")
+        }
+        
+        if view.questionIndex == 2 {
+            view.title = NSLocalizedString("MVP module.Models.Presenters.QuestionsPresenter.class QuestionsPresenter.func updateUI.view.questionIndex == 2", comment: "UINavigationItem")
+        }
         
         showCurrentAnswers(view,for: currentQuestion.type)
     }
@@ -36,13 +46,13 @@ class QuestionsPresenter {
     func showCurrentAnswers(_ view: QuestionsView, for type: ResponseType) {
         
         switch type {
-        case .single: showSingleAnswers(view,with: view.currentAnswers)
-        case .multiple: showMultipleAnswers(view,with: view.currentAnswers)
-        case .ranged: showRangedAnswers(view,with: view.currentAnswers)
+        case .single: showSingleAnswers(view, with: view.currentAnswers)
+        case .multiple: showMultipleAnswers(view, with: view.currentAnswers)
+        case .ranged: showRangedAnswers(view, with: view.currentAnswers)
         }
     }
     
-    func showSingleAnswers(_ view: QuestionsView,with answers: [Answer]) {
+    func showSingleAnswers(_ view: QuestionsView, with answers: [Answer]) {
         
         view.activityIndicator.isHidden = true
         view.singleStackView.isHidden = false
@@ -52,7 +62,7 @@ class QuestionsPresenter {
         }
     }
     
-    func showMultipleAnswers(_ view: QuestionsView,with answers: [Answer]) {
+    func showMultipleAnswers(_ view: QuestionsView, with answers: [Answer]) {
         
         view.activityIndicator.isHidden = true
         view.multipleStackView.isHidden = false
@@ -95,8 +105,8 @@ class QuestionsPresenter {
         Question.getQuestionsNetwork() {
             questionsFromJSON in
             
-            if let networkQuestinos = questionsFromJSON {
-                for element in networkQuestinos {
+            if let networkQuestions = questionsFromJSON {
+                for element in networkQuestions {
                     view.questions.append(element)
                 }
                 

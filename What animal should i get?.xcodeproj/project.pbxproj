@@ -68,7 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				2B538F7D260CA8B00075B0FA /* MVP module */,
-				2BBDA497260CDF4D00EE6F0C /* ServiceLayer */,
 				EA31D2DEBE531860F66AA53F /* Pods */,
 				FA2D0C96791494294A7CE34A /* Frameworks */,
 			);
@@ -90,6 +89,7 @@
 				2B538F9A260CAA340075B0FA /* Views */,
 				2B538F9C260CAA7A0075B0FA /* Presenters */,
 				2B538F97260CA9C00075B0FA /* Storyboards */,
+				2BBDA497260CDF4D00EE6F0C /* ServiceLayer */,
 				2B538F98260CA9E90075B0FA /* SupportingFiles */,
 				2B538F99260CAA220075B0FA /* Sources */,
 				2B538F7C260CA8B00075B0FA /* Products */,

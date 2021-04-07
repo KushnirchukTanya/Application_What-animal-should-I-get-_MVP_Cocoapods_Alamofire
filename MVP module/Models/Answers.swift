@@ -54,13 +54,13 @@ enum AnimalType: Character, Decodable {
         
         switch self {
         case .cat:
-            return NSLocalizedString("MVP module.Models.Answers.var definitionAnimal.case .cat", comment: "")
+            return NSLocalizedString("MVP module.Models.Answers.var definitionAnimal.case .cat", comment: "discriptionLabel")
         case .dog:
-            return NSLocalizedString("MVP module.Models.Answers.var definitionAnimal.case .dog", comment: "")
+            return NSLocalizedString("MVP module.Models.Answers.var definitionAnimal.case .dog", comment: "discriptionLabel")
         case .mouse:
-            return NSLocalizedString("MVP module.Models.Answers.var definitionAnimal.case .mouse", comment: "")
+            return NSLocalizedString("MVP module.Models.Answers.var definitionAnimal.case .mouse", comment: "discriptionLabel")
         case .fish:
-            return NSLocalizedString("MVP module.Models.Answers.var definitionAnimal.case .fish", comment: "")
+            return NSLocalizedString("MVP module.Models.Answers.var definitionAnimal.case .fish", comment: "discriptionLabel")
         }
     }
 }

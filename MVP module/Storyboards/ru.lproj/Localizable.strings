@@ -14,6 +14,16 @@
 
 "MVP module.Models.Answers.var definitionAnimal.case .fish" = "Вы спокойны и рассудительны. Вы цените последовательность и комфорт.";
 
-"MVP module.Models.Presenters.QuestionsPresenter.class QuestionsPresenter.func updateUI.view.title"= "Вопрос № \(view.questionIndex + 1) из \(view.questions.count)";
+"MVP module.Models.Presenters.QuestionsPresenter.class QuestionsPresenter.func updateUI.view.questionIndex == 0"= "Вопрос № 1 из 3";
 
-"MVP module.Models.Presenters.ResultsPresenter.class ResultsPresenter.func updateUI.view.animalTypeLabel.text" = "Ваше животное - ";
+"MVP module.Models.Presenters.QuestionsPresenter.class QuestionsPresenter.func updateUI.view.questionIndex == 1"= "Вопрос № 2 из 3";
+
+"MVP module.Models.Presenters.QuestionsPresenter.class QuestionsPresenter.func updateUI.view.questionIndex == 2"= "Вопрос № 3 из 3";
+
+"MVP module.Models.Presenters.ResultsPresenter.class ResultsPresenter.func updateUI.AnimalType.cat" = "Ваше животное - 🐈";
+
+"MVP module.Models.Presenters.ResultsPresenter.class ResultsPresenter.func updateUI.AnimalType.dog" = "Ваше животное - 🐩";
+
+"MVP module.Models.Presenters.ResultsPresenter.class ResultsPresenter.func updateUI.AnimalType.mouse" = "Ваше животное - 🦝";
+
+"MVP module.Models.Presenters.ResultsPresenter.class ResultsPresenter.func updateUI.AnimalType.fish" = "Ваше животное - 🐠";

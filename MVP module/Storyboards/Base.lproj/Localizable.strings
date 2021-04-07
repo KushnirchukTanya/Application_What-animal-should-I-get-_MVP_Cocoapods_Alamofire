@@ -14,6 +14,16 @@
 
 "MVP module.Models.Answers.var definitionAnimal.case .fish" = "You are calm and reasonable. You value consistency and comfort.";
 
-"MVP module.Models.Presenters.QuestionsPresenter.class QuestionsPresenter.func updateUI.view.title"= "Question № \(view.questionIndex + 1) in \(view.questions.count)";
+"MVP module.Models.Presenters.QuestionsPresenter.class QuestionsPresenter.func updateUI.view.questionIndex == 0"= "Question № 1 in 3";
 
-"MVP module.Models.Presenters.ResultsPresenter.class ResultsPresenter.func updateUI.view.animalTypeLabel.text" = "Your animal - !";
+"MVP module.Models.Presenters.QuestionsPresenter.class QuestionsPresenter.func updateUI.view.questionIndex == 1"= "Question № 2 in 3";
+
+"MVP module.Models.Presenters.QuestionsPresenter.class QuestionsPresenter.func updateUI.view.questionIndex == 2"= "Question № 3 in 3";
+
+"MVP module.Models.Presenters.ResultsPresenter.class ResultsPresenter.func updateUI.AnimalType.cat" = "Your animal - 🐈";
+
+"MVP module.Models.Presenters.ResultsPresenter.class ResultsPresenter.func updateUI.AnimalType.dog" = "Your animal - 🐩";
+
+"MVP module.Models.Presenters.ResultsPresenter.class ResultsPresenter.func updateUI.AnimalType.mouse" = "Your animal - 🦝";
+
+"MVP module.Models.Presenters.ResultsPresenter.class ResultsPresenter.func updateUI.AnimalType.fish" = "Your animal - 🐠";

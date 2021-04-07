@@ -30,8 +30,25 @@ class ResultsPresenter {
     
     func updateUI(_ view: ResultsView, with animal: AnimalType) {
         
-        view.animalTypeLabel.text = "Your animal - \(animal.rawValue)"
-            //view.animalTypeLabel.text = NSLocalizedString("MVP module.Models.Presenters.ResultsPresenter.class ResultsPresenter.func updateUI.view.animalTypeLabel.text", comment: "")
-        view.discriptionLabel.text = animal.definitionAnimal
+        if animal == AnimalType.cat {
+            view.animalTypeLabel.text = NSLocalizedString("MVP module.Models.Presenters.ResultsPresenter.class ResultsPresenter.func updateUI.AnimalType.cat", comment: "animalTypeLabel")
+            view.discriptionLabel.text = animal.definitionAnimal
+        }
+        
+        if animal == AnimalType.dog {
+            view.animalTypeLabel.text = NSLocalizedString("MVP module.Models.Presenters.ResultsPresenter.class ResultsPresenter.func updateUI.AnimalType.dog", comment: "animalTypeLabel")
+            view.discriptionLabel.text = animal.definitionAnimal
+        }
+        
+        if animal == AnimalType.mouse {
+            view.animalTypeLabel.text = NSLocalizedString("MVP module.Models.Presenters.ResultsPresenter.class ResultsPresenter.func updateUI.AnimalType.mouse", comment: "animalTypeLabel")
+            view.discriptionLabel.text = animal.definitionAnimal
+        }
+        
+        if animal == AnimalType.fish {
+            view.animalTypeLabel.text = NSLocalizedString("MVP module.Models.Presenters.ResultsPresenter.class ResultsPresenter.func updateUI.AnimalType.fish", comment: "animalTypeLabel")
+            view.discriptionLabel.text = animal.definitionAnimal
+        }
     }
 }
+
