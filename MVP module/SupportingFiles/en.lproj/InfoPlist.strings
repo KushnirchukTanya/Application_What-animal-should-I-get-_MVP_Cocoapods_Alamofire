@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  What animal should i get?
+
+  Created by Tanya on 08.04.2021.
+  
+*/
+
+CFBundleName = "What animal should i get?";
